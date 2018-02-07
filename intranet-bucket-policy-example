@@ -10,7 +10,6 @@
       "Resource": "arn:aws:s3:::bucket_name/*",
       "Condition": {
          "IpAddress": {"aws:SourceIp": ""},
-         "NotIpAddress": {"aws:SourceIp": ""} 
       } 
     } 
   ]
